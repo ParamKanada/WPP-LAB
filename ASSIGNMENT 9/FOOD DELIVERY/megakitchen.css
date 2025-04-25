@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("mega kitchen logo.png");
+  padding: 20px;
+  color: white;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.search-bar {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.search-bar h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.feature h2 {
+  margin: 15px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.feature p {
+  color: #666;
+}

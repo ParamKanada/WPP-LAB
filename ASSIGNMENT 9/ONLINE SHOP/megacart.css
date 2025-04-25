@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #2874f0;
+    color: white;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header .search-bar {
+    flex-grow: 1;
+    margin: 0 1rem;
+    padding: 0.5rem;
+  }
+  
+  header .search-button {
+    padding: 0.5rem 1rem;
+    background-color: #ff9f00;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .image{
+    display: flexbox;
+    transform: translatey();
+    width: 250px;
+    height: 250px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .categories {
+    padding: 2rem;
+  }
+  
+  .categories h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .category-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .category {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0 1rem;
+  }
+  
+  .category img {
+    width: 300px; /* Increased icon size */
+    height: 300px; /* Increased icon size */
+    border: 10px solid #ddd; /* Optional: Adds a thin border around icons */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    border-color: black;
+  }
+  
+  
